@@ -8,7 +8,7 @@ A clean, responsive note-taking web application built with **React** that allows
 * **✏️ Edit Notes:** Update and save changes to existing notes anytime.
 * **🗑️ Delete Notes:** Remove unwanted notes with a single click.
 * **⭐ Add to Favourites:** Bookmark or star important notes to easily filter and access them later.
-* **💾 Data Persistence:** *(Optional - remove if not applicable)* Automatically saves your notes and favourites in the browser's `localStorage` so your data stays intact after refreshing.
+* **💾 Data Persistence:**  Automatically saves your notes and favourites in the browser's `localStorage` so your data stays intact after refreshing.
 
 ## 🛠️ Tech Stack
 
