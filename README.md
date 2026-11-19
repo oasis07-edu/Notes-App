@@ -13,6 +13,6 @@ A clean, responsive note-taking web application built with **React** that allows
 ## 🛠️ Tech Stack
 
 * **Frontend:** React.js (Hooks, Functional Components)
-* **Styling:** [CSS3 / Tailwind CSS / Bootstrap — *update as needed*]
-* **Icons:** [React Icons / Lucide React / FontAwesome — *update as needed*]
-* **Build Tool:** [Vite / Create React App — *update as needed*]
+* **Styling:** [Tailwind CSS ]
+* **Icons:** [React Icons + Lucide React + FontAwesome]
+* **Build Tool:** [Vite]
