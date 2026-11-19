@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+    --color-ui-bg: var(--bg);
+    --color-ui-text: var(--text);
+    --color-ui-sidebar: var(--sidebar);
+    --color-primary:#50C878;
+    --color-search:var(--search);
+    --color-btns:var(--btns);
+}
+
+:root {
+    --bg: #121212;
+    --text: #EDEDED;
+    --sidebar: #1A1A1A;
+    --search:#404040;
+    --btns:#737373;
+}
+
+
+[data-theme='light'] {
+    --bg: #F8F9FA;
+    --text: #212529;
+    --sidebar: #FFFFFF;
+    --search:#D4D4D4;
+    --btns:#d4d4d4;
+}
