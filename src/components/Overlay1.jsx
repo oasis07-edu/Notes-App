@@ -28,13 +28,13 @@ const Overlay1= ({
                 <div className='flex justify-between items-center'>
                     <div>
                         <input
-                            className='text-xl outline-none text-white placeholder-white/60 bg-transparent'
+                            className='text-xl w-30 outline-none text-white placeholder-white/60 bg-transparent'
                             type="text"
                             value={title}
                             onChange={(e)=>{
                                 setTitle(e.target.value)
                             }}
-                            placeholder='Enter Title Here'
+                            placeholder='Enter Title'
                         />
                     </div>
                     <div className='flex gap-3 text-white items-center '>
@@ -84,7 +84,7 @@ const Overlay1= ({
                     <div className='flex gap-1 items-center'>
                         <RiPriceTag3Line color='white' size={16} />
                         <input
-                            className='outline-none text-white text-sm bg-transparent placeholder-white/60'
+                            className='outline-none w-30 text-white text-sm bg-transparent placeholder-white/60'
                             type="text"
                             value={tag}
                             onChange={(e)=>{

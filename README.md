@@ -14,5 +14,10 @@ A clean, responsive note-taking web application built with **React** that allows
 
 * **Frontend:** React.js (Hooks, Functional Components)
 * **Styling:** [Tailwind CSS ]
+<<<<<<< HEAD
 * **Icons:** [React Icons + Lucide React + FontAwesome]
 * **Build Tool:** [Vite]
+=======
+* **Icons:** [React Icons / Lucide React / FontAwesome ]
+* **Build Tool:** [Vite / Create React App ]
+>>>>>>> 7a44c52 (feat(ui): add new logo and make app responsive)

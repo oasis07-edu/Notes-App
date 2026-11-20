@@ -16,7 +16,10 @@ const Body = ({
   toggle,
   favourite,
   search,
-  setSearch
+  setSearch,
+  openSidebar,
+  setSidebar,
+  sidebar
 }) => {
   return (
     <div className="w-full h-screen bg-ui-bg p-5 flex justify-between">
@@ -25,6 +28,9 @@ const Body = ({
         allNotes={allNotes}
         setActive={setActive}
         active={active}
+        openSidebar={openSidebar}
+        setSidebar={setSidebar}
+        sidebar={sidebar}
       />
 
       <Whole

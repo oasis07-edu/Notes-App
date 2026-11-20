@@ -30,15 +30,16 @@ const Whole = ({
   }
 
   return (
-    <div className="h-full w-[80%] flex flex-col gap-3 relative">
+    <div className="h-full w-full md:w-[80%] flex flex-col gap-3 relative">
 
       <div className="flex justify-between px-[18px]">
 
-        <div className="flex gap-2 bg-search px-2 text-ui-text py-1 items-center rounded-xl">
+        <div className="inline-flex gap-2 bg-search px-2 text-ui-text py-1 items-center rounded-xl max-[390px]:w-35 ">
+
           <RiSearch2Line />
 
           <input
-            className="text-lg outline-none bg-transparent"
+            className="text-xs md:text-lg  outline-none bg-transparent"
             type="text"
             placeholder="Search note"
             value={search}
@@ -48,9 +49,9 @@ const Whole = ({
 
         <button
           onClick={openAddNote}
-          className="bg-primary text-ui-bg text-lg px-2 py-1.5 rounded-xl cursor-pointer uppercase hover:bg-white hover:text-[#29BA9C] transition-colors duration-200"
+          className="bg-primary text-ui-bg text-sm md:text-lg px-2 py-1.5 rounded-xl cursor-pointer uppercase hover:bg-white hover:text-[#29BA9C] transition-colors duration-200"
         >
-          Add New Note
+          Add Note
         </button>
       </div>
 

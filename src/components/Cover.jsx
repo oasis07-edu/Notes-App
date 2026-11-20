@@ -23,6 +23,7 @@ const STORAGE_KEY = 'oasis-notes'
   const [title, setTitle] = useState('')
   const [active, setActive] = useState('all')
   const [search, setSearch] = useState('')
+  const [sidebar, setSidebar] = useState(false)
 
   // Load notes from Local Storage on initial render
   const [arr, setArr] = useState(() => {
@@ -103,6 +104,10 @@ const STORAGE_KEY = 'oasis-notes'
     setColor(Colors[0])
     setOverlay(false)
   }
+  const openSidebar=()=>{
+    setSidebar(true)
+    console.log(sidebar)
+  }
 
   return (
     <div>
@@ -120,6 +125,9 @@ const STORAGE_KEY = 'oasis-notes'
         editNote={editNote}
         search={search}
         setSearch={setSearch}
+        openSidebar={openSidebar}
+        setSidebar={setSidebar}
+        sidebar={sidebar}
       />
 
       {overlay && (
